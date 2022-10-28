@@ -4,13 +4,12 @@ public class Main {
     public static void main(String[] args) {
         Car3 c1= new Car3();
         c1.companyName();
-        c1.carName();
         c1.usear();
 
         System.out.println("================================");
         Car1 car1=new Car1();
         car1.companyName();
-        car1.carName();
+     car1.companyAddress();
         car1.color();
         System.out.println("================================");
 

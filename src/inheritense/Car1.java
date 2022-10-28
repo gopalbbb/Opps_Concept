@@ -2,8 +2,8 @@ package inheritense;
 
 public class Car1 extends Car {
 
-     public static void companyName(){
-    Car.companyName();
+    public void companyAddress(){
+        System.out.println("self");
     }
     static void color(){
         System.out.println("Red");
